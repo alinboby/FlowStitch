@@ -1,6 +1,8 @@
 # FlowStitch
 A forensic tool to extract and reconstruct fragmented HTTP image data from pcap files using content-range headers.
 
+A Python-based forensic tool that analyzes HTTP traffic in pcap files, detects fragmented image data transferred using Content-Range headers (e.g., image/jpeg), reorders asynchronous fragments, and reconstructs the full image for investigation or covert data exfiltration detection.
+
 ### Details
 Python program named FlowStitch, version 1.0.0, developed by HxN0n3.
 
